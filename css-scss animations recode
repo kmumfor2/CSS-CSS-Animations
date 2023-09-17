@@ -1,0 +1,54 @@
+/****************************************
+* Transform
+****************************************/
+.transform-demo {
+	>div {
+		height: 40px;
+		background: salmon;
+		width: 20%;
+		margin: auto;
+		display: inline-block;
+	}
+}
+
+/****************************************
+* Transition
+****************************************/
+
+.transition-demo {
+	img {
+		margin-bottom: .5em;
+		width: 200px;
+		height: 200px;
+		filter: grayscale(100%);
+	}
+}
+
+
+/****************************************
+* Animation
+****************************************/
+
+$background-color_1: palegreen;
+
+@keyframes sale-bar {
+	0% {
+		background-color: lightgreen;
+		width: 450px;
+	}
+	75% {
+		background-color: #FF033E;
+		width: 125x;
+	}
+	100% {
+		background-color: crimson;
+		width: 10px;
+	}
+}
+.bar {
+	border: 1px solid black;
+	height: 50px;
+	width: 500px;
+	margin: auto;
+	background-color: $background-color_1;
+}

@@ -1,0 +1,42 @@
+/****************************************
+* General
+****************************************/
+$font-family_1: Sans-Serif;
+
+html {
+	font-family: $font-family_1;
+	text-align: center;
+}
+.container {
+	width: 600px;
+	margin: auto;
+}
+[class$=demo] {
+	border: 1px solid silver;
+	min-height: 200px;
+	margin: 5px;
+	box-shadow: 2px 2px 4px darkgrey;
+	border-radius: 2px;
+}
+
+
+/****************************************
+* Transform
+****************************************/
+.transform-demo {
+	>h3 {
+		vertical-align: top;
+		width: 30%;
+		margin: 5px auto;
+		display: inline-block;
+	}
+}
+/****************************************
+* Transition
+****************************************/
+.transform-demo 
+	>h3 { vertical-align: top;
+	width: 30%;
+	margin: 5px auto;
+	display: inline-block;
+}
